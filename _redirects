@@ -1,2 +1,8 @@
 / https://github.com/manasv/api-evangelium 301
-/api/:language/days/:date /data/:language/days/:date.json 200
+/api/es/days/:date /data/es/days/:date.json 200
+/api/en/days/:date /data/en/days/:date.json 200
+/api/fr/days/:date /data/fr/days/:date.json 200
+/api/it/days/:date /data/it/days/:date.json 200
+/api/kr/days/:date /data/kr/days/:date.json 200
+/api/pt/days/:date /data/pt/days/:date.json 200
+/api/de/days/:date /data/de/days/:date.json 200

@@ -46,8 +46,6 @@ for mode in modes:
 
         date += datetime.timedelta(days=1)
 
-        print("i is: " + str(i))
-
         if i == 6:
             date = datetime.date.today()
 
