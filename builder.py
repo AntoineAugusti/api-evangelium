@@ -29,12 +29,7 @@ for mode in modes:
         data = r.json()
 
         for j in range(3):
-
-            title = (
-                data["data"][j]["book"]["full_title"]
-                + " "
-                + data["data"][j]["reference_displayed"]
-            )
+            title = (data["data"][j]["book"]["full_title"] + " " + data["data"][j]["reference_displayed"])
 
             text = data["data"][j]["text"]
             today_readings[j] = {"title": title, "text": text}
