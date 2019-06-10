@@ -9,7 +9,7 @@ The endpoints return data in json format:
 
 - Readings per day : `https://evangelium.manuelsanchez.me/api/:language/days/:date`
 
-Exemple :
+Example :
 - https://evangelium.manuelsanchez.me/api/es/days/2019-06-10
 ```json
 {
@@ -33,6 +33,10 @@ Exemple :
 ## Features WIP
 
 As for now the API only gives the readings for the current day, and the next 6 days, woring to mantain history of the readings through time.
+
+## Credits
+
+For the guide and idea to host read only api on netlify: [@AntoineAugusti](https://github.com/AntoineAugusti)
 
 ## Licence
 MIT
