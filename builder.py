@@ -4,9 +4,6 @@ import os
 import datetime
 
 BASE_URL = "https://publication.evangelizo.ws/"
-date = datetime.date.today()
-
-today_readings = {}
 
 modes = [
     ('data/es/', BASE_URL + 'SP/' + 'days/'),
@@ -21,6 +18,9 @@ modes = [
 for mode in modes:
     base_path, url = mode
     os.makedirs(base_path, exist_ok=True)
+
+    today_readings = {}
+    date = datetime.date.today()
 
     for i in range(7):
         r = requests.get(url + str(date) + "/readings")
@@ -48,10 +48,3 @@ for mode in modes:
 
         if i == 6:
             date = datetime.date.today()
-
-    
-
-
-
-
-
