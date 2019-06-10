@@ -12,7 +12,11 @@ The endpoints return data in json format:
 Exemple :
 - https://evangelium.manuelsanchez.me/api/es/days/2019-06-10
 ```json
-{"0": {"title": "Example Title 1", "text": "Example Reading 1", "1": {"title": "Example Title 2", "text": "Example Reading 2"}, "2": {"title": "Example Title 3", "text": "Example Reading 3"}}
+{
+    "0": {"title": "Example Title 1", "text": "Example Reading 1"}, 
+    "1": {"title": "Example Title 2", "text": "Example Reading 2"}, 
+    "2": {"title": "Example Title 3", "text": "Example Reading 3"}
+}   
 ```
 
 ## Supported Languages
