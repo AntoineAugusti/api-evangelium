@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/36ba5654-56c5-47c8-91fc-ad07609975e6/deploy-status)](https://app.netlify.com/sites/evangelium/deploys)
 # Evangelium API - Daily Gospel at your fingertips
 Read-Only API to get the daily gospel in 7 different languages, [Check Repo](https://github.com/manasv/api-evangelium).
 
